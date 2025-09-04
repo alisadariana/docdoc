@@ -46,3 +46,9 @@ When copying the boot files in the SD card BOOT partition, make sure to also cop
 Easy fix: instead of copying *.dtbo, copy \*.dtb\*.
 
 In config.txt have dtoverlay=vc4-kms-v3d, since now the mapping is done automatically.
+
+## Discarded Solution
+
+The gldriver-test package from Raspberry Pi Debian repository does the same thing as suggested in [Solution](#solution).
+
+Discarded because it has some packages we want to avoid as dependencies.
